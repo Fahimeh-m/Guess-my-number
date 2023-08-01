@@ -1,0 +1,68 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+/* rem or em do Not depend on html font size in media queries!
+instead 1rem(rem is the root font size)=1em(em is current font size)=16px */
+/***********/
+/* BELOW 1344px(smaller desktops) */
+/***********/
+@media (max-width: 84em) {
+  main {
+    max-height: 84rem;
+    align-items: skretch;
+  }
+  .number {
+    width: 10rem;
+    padding: 2rem 0rem;
+  }
+}
+/*********772px(smaller desktops) */
+/***********/
+@media (max-width: 48em) {
+  html {
+    font-size: 56%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+/*********625px(smaller desktops) */
+/***********/
+@media (max-width: 39em) {
+  html {
+    font-size: 50%;
+  }
+
+  .guess {
+    font-size: 4rem;
+    width: 20rem;
+  }
+}
+
+/*********508px(smaller desktops) */
+/***********/
+@media (max-width: 30em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/*********410px(smaller desktops) */
+/***********/
+@media (max-width: 25em) {
+  html {
+    font-size: 37.5%;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+  .number {
+    width: 12rem;
+  }
+  .lable-highscore {
+    margin-bottom: 1rem;
+  }
+}
